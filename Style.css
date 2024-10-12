@@ -1,0 +1,57 @@
+body {
+  background-color: #ffe6cc;
+}
+
+h1{
+  font-family: Verdana, sans-serif;
+}
+
+h3{
+  float:left;
+  clear:left;
+  color: black
+}
+
+img {
+  height: 300px;
+  width: 550px;
+}
+
+.topnav {
+  background-color: #bf8040;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+
+.topnav a:hover {
+  background-color: #e6e6e6;
+  color: black;
+}
+
+.one {
+ float: left;
+ clear: left;
+}
+
+.two {
+ float: right;
+ clear: right;
+}
+
+.three {
+ float: left;
+ clear: left;
+}
+
+.four {
+ float: right;
+ clear: right;
+}
