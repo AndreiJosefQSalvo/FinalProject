@@ -32,7 +32,7 @@ img {
 }
 
 .topnav a:hover {
-  background-color: #e6e6e6;
+  background-color: white;
   color: black;
 }
 
@@ -41,9 +41,19 @@ img {
  clear: left;
 }
 
+.one a {
+ float: left;
+}
+
 .two {
  float: right;
  clear: right;
+}
+
+.two a {
+ float: right;
+ clear: right;
+ margin-top: 20px;
 }
 
 .three {
@@ -51,7 +61,56 @@ img {
  clear: left;
 }
 
+.three a {
+ float: left;
+ margin-top: 20px;
+}
+
 .four {
  float: right;
  clear: right;
+}
+
+.four a {
+ float: right;
+ clear: right;
+ margin-top: 20px;
+}
+
+.one a:link, .two a:link, .three a:link, .four a:link {
+color:white;
+background-color: #bf8040;
+text-decoration: none;
+border: solid black 1px;
+padding: 1px;
+}
+
+.one a:hover, .two a:hover, .three a:hover, .four a:hover {
+color:black;
+background-color: white;
+text-decoration: none;
+border: solid black 1px;
+padding: 1px;
+}
+
+.one a:active, .two a:active, .three a:active, .four a:active {
+color:white;
+background-color: lightblue;
+text-decoration: none;
+border: solid black 1px;
+padding: 1px;
+}
+
+.one a:visited, .two a:visited, .three a:visited, .four a:visited {
+color:white;
+text-decoration: none;
+border: solid black 1px;
+padding: 1px;
+}
+
+.one a:visited:hover, .two a:visited:hover, .three a:visited:hover, .four a:visited:hover {
+color:black;
+text-decoration: none;
+border: solid black 1px;
+padding: 1px;
 }
