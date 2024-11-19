@@ -29,6 +29,8 @@ img {
   padding: 14px 16px;
   text-decoration: none;
   font-size: 17px;
+  transition-property: background-color, color;
+  transition-duration:0.3s;
 }
 
 .topnav a:hover {
@@ -83,6 +85,9 @@ background-color: #bf8040;
 text-decoration: none;
 border: solid black 1px;
 padding: 1px;
+transition-property: background-color, color;
+transition-duration:0.3s;
+transition-delay:0.2s;
 }
 
 .one a:hover, .two a:hover, .three a:hover, .four a:hover {
