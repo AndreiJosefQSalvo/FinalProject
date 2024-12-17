@@ -1,0 +1,36 @@
+img {
+  height: 300px;
+  width: 550px;
+}
+
+.topnav {
+  background-color: #bf8040;
+  overflow: hidden;
+}
+
+.topnav a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+  transition-property: background-color, color;
+  transition-duration:0.3s;
+}
+
+.topnav a:hover {
+  background-color: white;
+  color: black;
+}
+
+#arrow {
+  width: 43px;
+  height: 44px;
+  background: url(images/arrow.png) -96px -60px;
+  animation: varName 1s steps(5) infinite;
+ }
+ @keyframes varName{
+ from{background-position-y:-60px;}
+ to{background-position-y:-1236px;}
+}
