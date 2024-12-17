@@ -27,7 +27,7 @@ img {
 .sprite {
   width: 169px;
   height: 181px;
-  background: url(images/arrow.png) -61px -74px;
+  background: url(images/arrow.png) -61px -75px;
   animation: arrow 1s steps(5) infinite;
  }
  @keyframes arrow{
