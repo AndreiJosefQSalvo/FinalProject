@@ -27,10 +27,10 @@ img {
 .sprite {
   width: 43px;
   height: 44px;
-  background: url(images/arrow.png) -96px -60px;
-  animation: varName 1s steps(5) infinite;
+  background: url(images/arrow.png) -61px -74px;
+  animation: arrow 1s steps(5) infinite;
  }
- @keyframes varName{
- from{background-position-y:-60px;}
- to{background-position-y:-1236px;}
+ @keyframes arrow{
+ from{background-position-x:-61px;}
+ to{background-position-x:-964px;}
 }
