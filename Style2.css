@@ -24,7 +24,7 @@ img {
   color: black;
 }
 
-#arrow {
+.sprite {
   width: 43px;
   height: 44px;
   background: url(images/arrow.png) -96px -60px;
