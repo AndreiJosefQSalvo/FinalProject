@@ -1,3 +1,17 @@
+body {
+  background-color: #ffe6cc;
+}
+
+h1{
+  font-family: Verdana, sans-serif;
+}
+
+h3{
+  float:left;
+  clear:left;
+  color: black
+}
+
 img {
   height: 300px;
   width: 550px;
@@ -25,12 +39,21 @@ img {
 }
 
 .sprite {
-  width: 169px;
-  height: 181px;
-  background: url(images/arrow.png) -61px -75px;
+  float:right;
+  width: 80px;
+  height: 77px;
+  background: url(images/imgsprite.png) -28px -28px;
   animation: arrow 1s steps(5) infinite;
+  transition-property: transform;
+  transition-duration: 0.5s;
+  transition-timing-function: ease-in-out;
+  transition-delay: 0.2s;
  }
  @keyframes arrow{
- from{background-position-x:-61px;}
- to{background-position-x:-964px;}
+ from{background-position-x:-28px;}
+ to{background-position-x:-500px;}
+}
+
+.sprite:hover {
+  transform:scale(1.5);
 }
