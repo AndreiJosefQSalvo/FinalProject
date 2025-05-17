@@ -119,3 +119,13 @@ text-decoration: none;
 border: solid black 1px;
 padding: 1px;
 }
+
+.quiz-text {
+position:absolute;
+top: 1000px;
+}
+
+.quiz-container {
+position:absolute;
+top: 1050px;
+}
