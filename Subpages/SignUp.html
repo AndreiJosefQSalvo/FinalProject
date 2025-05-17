@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<head>
+  <title>The Problem With Poverty - Sign Up</title>
+  <link rel="stylesheet" href="../Style3.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1><img src="images/NoPoverty.png" alt="Logo">The Problem With Poverty</h1>
+      <p class="tagline">Together, we can end poverty.</p>
+    </header>
+
+    <form id="signupForm">
+      <label>First Name * <input type="text" id="firstName"><span class="error" id="firstNameError"></span></label>
+
+      <label>Last Name * <input type="text" id="lastName"><span class="error" id="lastNameError"></span></label>
+
+      <label>Sex *<br>
+        <input type="radio" name="sex" value="Male"> Male
+        <input type="radio" name="sex" value="Female"> Female
+        <input type="radio" name="sex" value="Prefer not to say"> Prefer not to say
+        <span class="error" id="sexError"></span>
+      </label>
+
+      <label>Email Address * <input type="text" id="email"><span class="error" id="emailError"></span></label>
+
+      <label>Password * <input type="password" id="password"><span class="error" id="passwordError"></span></label>
+
+      <label>Contact Number <input type="text" id="contact"></label>
+
+      <label>Why you’re supporting our campaign *<br>
+        <textarea id="reason"></textarea><span class="error" id="reasonError"></span>
+      </label>
+
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+
+  <script src="SignUp.js"></script>
+</body>
+</html>
